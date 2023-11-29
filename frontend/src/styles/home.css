@@ -1,0 +1,33 @@
+#home-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.home-section {
+    width: 100vw;
+    height: 40vh;
+}
+
+#about-me {
+    display: flex;
+
+    align-items: center;
+    align-content: center;
+
+    min-height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    #about-me {
+        width: 100vw;
+        display:block;
+        height:auto;
+
+    }
+}

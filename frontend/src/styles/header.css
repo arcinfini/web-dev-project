@@ -1,0 +1,24 @@
+header {
+    color: #fff;
+    padding: 20px;
+    position:sticky;
+    top:0px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--main-color);
+    transition: transform 0.3s ease;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+
+}

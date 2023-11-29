@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap:25%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-instruction {
+    margin: 100px;
+}

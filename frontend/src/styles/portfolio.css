@@ -1,0 +1,51 @@
+
+.search {
+    margin: 20px;
+    margin-top: 15px;
+}
+
+.project-holder {
+    display: flex;
+    margin: 20px;
+    font-size: 1em;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    flex-basis:30%;
+    display: flex;
+}
+
+.project:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.project img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+
+    .project section {
+        padding: 20px;
+    }
+
+
+
+    .project-holder {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .project {
+        display: flex;
+        flex-direction:row;
+    }
+}
