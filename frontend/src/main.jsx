@@ -7,7 +7,7 @@ import Contact from './pages/contact'
 
 function Main() {
     return (
-        <Router>
+        <Router basename={import.meta.env.VITE_BASENAME}>
             <Header></Header>
             <Routes>
                 <Route path='/' element={<Home />} />
